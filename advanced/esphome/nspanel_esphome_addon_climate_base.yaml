@@ -30,7 +30,7 @@ climate:
   - platform: thermostat
     name: ${device_name} Thermostat
     id: thermostat_embedded
-    sensor: temp_nspanel
+    sensor: average_underfloor_temperature
     min_idle_time: ${min_idle_time}s
     visual:
       min_temperature: ${temp_min} ${temp_units}
